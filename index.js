@@ -3,6 +3,7 @@
 
 */
 
+var fs = require("fs");
 
 /**
   object that describes the app. Meta.
@@ -19,6 +20,8 @@ var App = {
 
   here let's set up our working directory and working files.
   -configurations
+  -user files
+  -- recently opened documents
   
 */
 (function init() {
@@ -27,3 +30,6 @@ var App = {
   console.log("["+init_date+"] " + App.name +
   " is starting.");
 })();
+
+
+module.exports = fs;
