@@ -16,6 +16,10 @@ var App = {
 /**
   init function,
   (iife) Immediately-invoked Function Expression
+
+  here let's set up our working directory and working files.
+  -configurations
+  
 */
 (function init() {
   "use strict";
